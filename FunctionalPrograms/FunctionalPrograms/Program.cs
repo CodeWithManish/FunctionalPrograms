@@ -15,7 +15,9 @@ namespace FunctionalPrograms
                 while (flag)
                 {
                     Console.WriteLine("Enter 1 to find the distance between two given points\n" + 
-                        "Enter 2 to print 2d Array:\n" + "Enter 3 for the Quadratic Root Equation\n" + "Enter 0 to Exit");
+                        "Enter 2 to print 2d Array:\n" + "Enter 3 for the Quadratic Root Equation\n" +
+                        " Enter 4 to get the Effective Temperature\n " +
+                        "Enter 0 to Exit");
 
                     flag = true;
 
@@ -28,7 +30,7 @@ namespace FunctionalPrograms
 
                         case 1:
                             Distance distance = new Distance();
-                            distance.calc();
+                            distance.Calc();
                             break;
                         case 2:
                             TwoDArray twoDArray = new TwoDArray();
@@ -38,6 +40,11 @@ namespace FunctionalPrograms
                         case 3:
                             QuadraticRootEquation qre = new QuadraticRootEquation();
                             qre.Find();
+                            break;
+
+                        case 4:
+                            WindChill windChill = new WindChill();
+                            windChill.Temperature();
                             break;
                 }
                 }

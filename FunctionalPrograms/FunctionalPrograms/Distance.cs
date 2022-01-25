@@ -9,7 +9,7 @@ namespace FunctionalPrograms
     public class Distance
     {
 
-        public void calc()
+        public void Calc()
         {
             Console.WriteLine("Enter the First Point of the Cooridinate  \n");
             int x1, y1;
