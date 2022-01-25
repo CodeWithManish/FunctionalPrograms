@@ -14,7 +14,8 @@ namespace FunctionalPrograms
                 bool flag = true;
                 while (flag)
                 {
-                    Console.WriteLine(" Enter 1 to find the distance between two given points\n " + " Enter 0 to Exit ");
+                    Console.WriteLine(" Enter 1 to find the distance between two given points\n " + 
+                        " Enter 2 to print 2d Array:\n " + " Enter 0 to Exit ");
 
                     flag = true;
 
@@ -29,7 +30,11 @@ namespace FunctionalPrograms
                             Distance distance = new Distance();
                             distance.calc();
                             break;
-                    }
+                        case 2:
+                            TwoDArray twoDArray = new TwoDArray();
+                            twoDArray.Array();
+                            break;
+                }
                 }
             }
        
