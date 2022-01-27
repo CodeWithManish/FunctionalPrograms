@@ -14,9 +14,10 @@ namespace FunctionalPrograms
                 bool flag = true;
                 while (flag)
                 {
-                    Console.WriteLine("Enter 1 to find the distance between two given points\n" + 
-                        "Enter 2 to print 2d Array:\n" + "Enter 3 for the Quadratic Root Equation\n" +
-                        " Enter 4 to get the Effective Temperature\n " +
+                    Console.WriteLine("Enter 1 to find the distance between two given points:\n" + 
+                        "Enter 2 to print 2d Array:\n" + "Enter 3 for the Quadratic Root Equation:\n" +
+                        "Enter 4 to get the Effective Temperature:\n" +
+                        "Enter 5 to get triplet sum equal to zero: \n" +
                         "Enter 0 to Exit");
 
                     flag = true;
@@ -45,6 +46,11 @@ namespace FunctionalPrograms
                         case 4:
                             WindChill windChill = new WindChill();
                             windChill.Temperature();
+                            break;
+
+                        case 5:
+                            SumOfThreeToZero sumOfThreeToZero = new SumOfThreeToZero();
+                            sumOfThreeToZero.GetTripletSum();
                             break;
                 }
                 }

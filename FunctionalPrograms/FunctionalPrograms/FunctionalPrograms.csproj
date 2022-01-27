@@ -46,7 +46,10 @@
     <Compile Include="Distance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuadraticRootEquation.cs" />
+    <Compile Include="SumOfThreeToZero.cs" />
     <Compile Include="TwoDArray.cs" />
+    <Compile Include="WindChill.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
